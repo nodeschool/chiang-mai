@@ -46,6 +46,7 @@ line-height : 1.2;
 font-weight:300;
 background: rgba(0,0,0,.7);
 border-radius: 5px;
+padding: 15px 20px;
 display: inline-block;
 }
 
@@ -1008,3 +1009,24 @@ p {
 -webkit-hyphenate-limit-after : 1;
 -webkit-hyphenate-limit-before : 3;
 -moz-hyphens : auto; }
+
+.header-button {
+	padding: 15px 20px;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+	max-width: 300px;
+	margin: 20px auto;
+	background-color: #1F6696;
+	text-transform: capitalize;
+}
+
+.header-button:hover {
+	background-color: #0A375E;	
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);	
+}
