@@ -712,7 +712,7 @@ background-color : #ccc; }
 
 .nextthing p { color:#fff; text-align:center; font-size: 18px; line-height: 26px; }
 
-.nextthing a { 
+.nextthing a.join { 
 	color:#fff; 
 	padding:15px 30px; 
 	display: inline-block; 
@@ -727,7 +727,19 @@ background-color : #ccc; }
 	-ms-transition:color 0.5s;
 	transition:color 0.5s ease; }
 	
-.nextthing a:hover { background:#fff; color:#1e658a; }
+.nextthing a.join:hover { background:#fff; color:#1e658a; }
+
+.nextthing a.facebook {
+	color:#1e658a;	
+	padding-bottom: 30px;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.nextthing a.facebook:hover {
+	color: #fff;
+}
 
 /*  Questions  ============================================================================= */
 
