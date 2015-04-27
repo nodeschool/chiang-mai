@@ -731,10 +731,10 @@ background-color : #ccc; }
 
 .nextthing a.facebook {
 	color:#1e658a;	
-	padding-bottom: 30px;
-	display: block;
 	font-size: 16px;
 	font-weight: 600;
+	display: inline-block;
+	padding: 0px 30px 30px 30px;
 }
 
 .nextthing a.facebook:hover {
