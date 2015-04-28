@@ -178,6 +178,14 @@ bottom : -.25em; }
 
 /* LINKS =============================================================================  */
 
+a span.octicon {
+	margin-right: 10px;
+}
+
+a img.socialicon {
+	vertical-align: middle;
+}
+
 a {
 color : #cc1122;
 -webkit-transition: all 0.3s ease;
