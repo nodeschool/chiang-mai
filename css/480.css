@@ -17,6 +17,10 @@
 		}
 
 
+		.span_1_of_3 {
+			width: 100%;
+			margin-left: 0;
+		}
 
 /*  GRID OF EIGHT TURNS INTO A GRID OF FOUR */
 
