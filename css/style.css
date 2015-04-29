@@ -208,6 +208,10 @@ outline : 0;
 color : #dd2233;
 }
 
+.questions a {
+	color: #ffffff;
+	border-bottom: 1px dashed #ffffff;
+}
 
 footer a {
 color : #ffffff;
