@@ -1,7 +1,10 @@
 /*  MAKE LAYOUT RESPONSIVE at 768px FOR IPAD PORTRAIT ================================================================ */
 
+.span_1_of_3 {
+	width: 100%;
+	margin-left: 0;
+}
 
-	
 		header {
 			width: 93.75%; /* 720px / 768px */
 		}
@@ -10,13 +13,10 @@
 			width: 93.75%; /* 720px / 768px */
 		}
 
-		
 		.maincontent{
 			width: 93.75%; /* 720px / 768px */
 		}
 
-		
 		footer {
 			width: 93.75%; /* 720px / 768px */
 		}
-		

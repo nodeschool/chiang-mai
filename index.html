@@ -14,7 +14,7 @@
   <meta name="author" content="Richard Littauer (ht John Fenton)">
   <meta http-equiv="cleartype" content="on">
 
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
 
   <!-- Responsive -->
   <meta name="HandheldFriendly" content="True">
@@ -31,16 +31,19 @@
   <link rel="stylesheet" href="css/3cols.css" media="all">
   <link rel="stylesheet" href="css/4cols.css" media="all">
 
+  <!-- Octicons -->
+  <link rel="stylesheet" href="octicons/octicons.css">
+
   <!-- Responsive Stylesheets -->
   <link rel="stylesheet"
         media="only screen and (max-width: 1024px) and (min-width: 769px)"
-        href="/css/1024.css">
+        href="css/1024.css">
   <link rel="stylesheet"
         media="only screen and (max-width: 768px) and (min-width: 481px)"
-        href="/css/768.css">
+        href="css/768.css">
   <link rel="stylesheet"
         media="only screen and (max-width: 480px)"
-        href="/css/480.css">
+        href="css/480.css">
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
   <script src="js/modernizr-2.5.3-min.js"></script>
   <!--  <style type="text/css">
@@ -57,16 +60,18 @@
   <div id="wrapper">
     <div id="headcontainer">
       <header>
-      <h1><span class="fword">nodeschool</span></h1>
-      <h1>Chiang Mai</h1>
-      <h2>
-        May 1st 2015, 15:00-18:00 <br /> @ <a href="https://www.google.co.th/maps/place/Punspace+Tha+Phae+Gate/@18.786516,98.991489,17z/data=!3m1!4b1!4m2!3m1!1s0x30da3aa1f787eba5:0x9d8679bdfb4d033e">Punspace Tha Phae Gate</a>
-      </h2>
-
-      <a class='header-button' href="https://gitter.im/nodeschool/chiang-mai">
-        Help us plan or show interest
-      </a>
-      
+        <h1>
+          <img src="images/sticker.png" alt="NodeSchool Chiang Mai Sticker"/><br/>
+          NodeSchool Chiang Mai
+        </h1>
+        <h2>
+          May 1 · 3:00 PM @ <a href="https://www.google.co.th/maps/place/Punspace+Tha+Phae+Gate/@18.786516,98.991489,17z/data=!3m1!4b1!4m2!3m1!1s0x30da3aa1f787eba5:0x9d8679bdfb4d033e" class="location">Punspace Tha Phae Gate</a>
+          <a href="https://www.facebook.com/events/1631984310371660/" title="Details of the event on Facebook"><img class="socialicon" src="images/facebook.png" width="25"/></a>
+          <a href="https://plus.google.com/events/cr947pqnn8b7qdklvntjob1fl6o" title="Details of the event on Google+"><img class="socialicon" src="images/google-plus.png" width="25"/></a>
+        </h2>
+        <a class='header-button' href="https://gitter.im/nodeschool/chiang-mai">
+          <span class="octicon octicon-comment-discussion"></span> Join the discussion on Gitter
+        </a>
       </header>
     </div>
     <div id="maincontentcontainer">
@@ -124,15 +129,12 @@
           <div id="maincontent">
             <div class="section group">
               <h3>Join the Adventure!</h3>
-              <p>Want to come to the NodeSchool in Chiang Mai this May? Help us plan or sign up to attend on GitHub.</p>
-              <!-- <p>Want to have another NodeSchool in Chiang Mai? We plan on -->
-              <!-- running nodeschool events regularly. Help us plan -->
-              <!-- or show interest on GitHub.</p> -->
-              <a class='join' href="https://github.com/nodeschool/chiang-mai">Join us</a>
-              <p>
-                <a class="facebook" href="https://www.facebook.com/events/1631984310371660/">Facebook Event</a>
-                <a class="facebook" target="_blank" href="https://plus.google.com/events/cr947pqnn8b7qdklvntjob1fl6o">Google+</a>
-              </p>
+
+              <p>Want to have another NodeSchool in Chiang Mai?<br/>We plan on
+              running nodeschool events regularly. Help us plan
+              or show interest on GitHub.</p>
+              <a href="https://github.com/nodeschool/chiang-mai"><span class="octicon octicon-octoface"></span> NodeSchool Chiang Mai on Github</a>
+
             </div>
           </div>
         </div>
@@ -147,7 +149,7 @@
             </div>
           </div>
         </div>
-        <!-- 
+        <!--
         <div class="sponsored">
           <div id="maincontent">
             <div class="section group">
@@ -157,13 +159,13 @@
             </div>
           </div>
         </div>
-        --> 
+        -->
       </div>
     </div>
   </div>
   <!-- JavaScript at the bottom for fast page loading -->
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
   <!--[if (lt IE 9) & (!IEMobile)]>
   <script src="js/selectivizr-min.js"></script>
