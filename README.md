@@ -7,8 +7,4 @@ Check out the [issues](https://github.com/nodeschool/chiang-mai/issues) or the [
 
 [![Join the chat at https://gitter.im/nodeschool/chiang-mai](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/chiang-mai?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Interested in coming?**  
-The next event will take place in **Punspace Tha Phae Gate on May 23rd at 3:00pm**.  
-Sign up through the [Facebook event](https://www.facebook.com/events/493163420832014/) created for the occasion.
-
 More details on our [official website](http://nodeschool.io/chiang-mai/).
